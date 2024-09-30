@@ -1,4 +1,4 @@
-FROM registry.ci.openshift.org/openshift/release:golang-1.19 AS build
+FROM registry.ci.openshift.org/openshift/release:golang-1.22 AS build
 
 ENV GOFLAGS="-mod=mod"
 
